@@ -1,0 +1,38 @@
+{
+  "name": "electro-puppy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-aria": "1.5.8",
+    "angular-chart.js": "^1.1.1",
+    "angular-google-chart": "^0.1.0",
+    "angular-material": "^1.1.1",
+    "angular-material-data-table": "^0.10.10",
+    "angular-material-icons": "^0.7.1",
+    "angular-sanitize": "^1.6.0",
+    "angular-ui-router": "^0.3.2",
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "bower": "^1.8.0",
+    "css-loader": "^0.26.1",
+    "lodash": "^4.17.2",
+    "md-data-table": "^2.2.0",
+    "ng-annotate-loader": "^0.2.0",
+    "raw-loader": "^0.5.1",
+    "sloc": "^0.1.11",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
