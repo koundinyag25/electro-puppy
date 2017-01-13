@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -24,14 +25,23 @@
     "babel-preset-es2015": "^6.18.0",
     "bower": "^1.8.0",
     "css-loader": "^0.26.1",
+    "es6-promise": "^4.0.5",
+    "ethereumjs-abi": "^0.6.4",
+    "ethers-wallet": "^1.0.8",
+    "etherscan-api": "^2.2.0",
+    "express": "^4.14.0",
     "lodash": "^4.17.2",
     "md-data-table": "^2.2.0",
     "ng-annotate-loader": "^0.2.0",
+    "nodemon": "^1.11.0",
     "raw-loader": "^0.5.1",
+    "request": "^2.79.0",
     "sloc": "^0.1.11",
     "style-loader": "^0.13.1",
+    "web3": "^0.18.0",
     "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": "^1.16.2",
+    "when": "^3.7.7"
   },
   "author": "",
   "license": "ISC"
